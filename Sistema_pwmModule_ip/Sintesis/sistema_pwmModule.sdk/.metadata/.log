@@ -13659,3 +13659,24 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 20:29:03.493
 !MESSAGE XSCT command with result: [disconnect tcfchan#4], Result: [null, ]. Thread: Thread-300
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 20:37:26.862
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/sistema_pwm_wrapper_hw_platform_0/system.hdf C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/pwm_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 20:37:26.865
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/sistema_pwm_wrapper_hw_platform_0/system.hdf C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/pwm_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 20:37:26.865
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/sistema_pwm_wrapper_hw_platform_0/system.hdf C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/pwm_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 20:37:26.868
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/sistema_pwm_wrapper_hw_platform_0/system.hdf C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/pwm_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.6",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 20:37:26.868
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/pwm_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 20:37:26.869
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.sdk/pwm_bsp/system.mss], Result: [null, ]. Thread: main
