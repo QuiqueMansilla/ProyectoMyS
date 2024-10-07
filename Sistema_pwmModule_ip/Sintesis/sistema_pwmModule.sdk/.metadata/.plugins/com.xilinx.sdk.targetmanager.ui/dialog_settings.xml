@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\Disco1\RepositoriosGitHub\ProyectoMyS\Sistema_pwmModule_ip\Sintesis\sistema_pwmModule.runs\impl_1\sistema_pwm_wrapper.bit" key="sistema_pwm_wrapper_hw_platform_0-bitFile"/>
+	<item value="Local" key="sistema_pwm_wrapper_hw_platform_0-target"/>
+	<item value="false" key="sistema_pwm_wrapper_hw_platform_0-partial_bit"/>
+	<item value="sistema_pwm_wrapper_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="Auto Detect" key="sistema_pwm_wrapper_hw_platform_0-device"/>
+	<item value="" key="sistema_pwm_wrapper_hw_platform_0-bmmFile"/>
+</section>
