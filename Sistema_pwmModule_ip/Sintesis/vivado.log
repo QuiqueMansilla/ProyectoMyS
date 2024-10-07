@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Oct  7 18:19:40 2024
+# Process ID: 23100
+# Current directory: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16780 C:\Disco1\RepositoriosGitHub\ProyectoMyS\Sistema_pwmModule_ip\Sintesis\sistema_pwmModule.xpr
+# Log file: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/vivado.log
+# Journal file: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Disco1/MyS/Sistema_pwmModule_ip/Sintesis' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Disco1/RepositoriosGitHub/ProyectoMyS/Repositorio_IP/pwmModule_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.srcs/sources_1/bd/sistema_pwm/sistema_pwm.bd}
+Adding cell -- xilinx.com:user:pwmModule_ip:1.0 - pwmModule_ip_0
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <sistema_pwm> from BD file <C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule.srcs/sources_1/bd/sistema_pwm/sistema_pwm.bd>
+open_bd_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 950.551 ; gain = 74.703
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  7 18:21:57 2024...
