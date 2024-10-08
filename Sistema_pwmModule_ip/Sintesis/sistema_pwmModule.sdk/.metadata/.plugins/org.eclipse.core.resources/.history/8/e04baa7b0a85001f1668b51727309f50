@@ -25,7 +25,7 @@ int main (void) {
 
     	xil_printf("Modulo, Duty Cicle, Salida pwm: %d, %d, %d\r\n", modulo, duty, pwm_out);
 
-    	for (i=0; i<99999; i++);
+    	for (i=0; i<9999999; i++);
     }
 
  

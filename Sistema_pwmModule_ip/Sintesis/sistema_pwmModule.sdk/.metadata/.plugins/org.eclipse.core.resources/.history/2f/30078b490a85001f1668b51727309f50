@@ -11,7 +11,6 @@ int main (void) {
 	int modulo = 15;
 	int duty = 7;
 	int enable = 1;
-	int i;
 
     xil_printf("-- Inicio del programa para probar IP core propio pwmModule_ip --\r\n");
  
@@ -25,7 +24,7 @@ int main (void) {
 
     	xil_printf("Modulo, Duty Cicle, Salida pwm: %d, %d, %d\r\n", modulo, duty, pwm_out);
 
-    	for (i=0; i<99999; i++);
+    	for (i=0; i<9999999; i++);
     }
 
  
