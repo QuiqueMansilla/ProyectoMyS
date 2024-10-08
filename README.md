@@ -1,14 +1,24 @@
 Repositorio MyS
-Proyecto para solucionar porblema del como conectar el ILA.
+Se creo el ip cord pwmModule_ip
 
-Se continuo el proyecto sin conectar el ILA.
+Se ajusto ip cord led_ip a 1 bit y se lo llamó led1_ip
 
-Se generó el bitstream
+Se creó poryecto Sistema_pwmModule_ip
 
-Se completó el proceso exportando hardware y lanzando el SDK
+se agregaron los siguientes modulos:
+	# Zynq
+	# pwmModule_ip
+	# led1_ip
+	# ila_0
 
-Se desarrollo el pwm.c a partir de otro modelo y se adapto a los parametros del proyecto actual
+Se generó el bitstream --> ok
+
+Se completó el proceso exportando hardware y lanzado el SDK
+
+Se desarrollo el pwm.c a partir de otro modelo y se adaptó a los parámetros del proyecto actual
 
 Se programo la FPGA
 
 Se corrio sobre la placa el proyecto pwm sin errores pero no se puede apreciar le cambio de la señal de salida pwm.
+
+En vivado se abrio el target y se vio la salida pwm hacia el ILA
