@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.runs/impl_1'
+HD_PWD='C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

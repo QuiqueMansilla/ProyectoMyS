@@ -22,28 +22,27 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.cache/wt [current_project]
-set_property parent.project_path C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.xpr [current_project]
+set_property webtalk.parent_dir C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.cache/wt [current_project]
+set_property parent.project_path C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:arty-z7-10:part0:1.1 [current_project]
 set_property ip_repo_paths c:/Disco1/RepositoriosGitHub/ProyectoMyS/Repositorio_IP [current_project]
-set_property ip_output_repo c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.cache/ip [current_project]
+set_property ip_output_repo c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/hdl/sistema_pwmModule_wrapper.vhd
-add_files C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/sistema_pwmModule.bd
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_processing_system7_0_0/sistema_pwmModule_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_rst_ps7_0_100M_0/sistema_pwmModule_rst_ps7_0_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_rst_ps7_0_100M_0/sistema_pwmModule_rst_ps7_0_100M_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_rst_ps7_0_100M_0/sistema_pwmModule_rst_ps7_0_100M_0_ooc.xdc]
-set_property used_in_synthesis false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/ila_v6_2/constraints/ila.xdc]
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/sistema_pwmModule_ila_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_xbar_0/sistema_pwmModule_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_auto_pc_0/sistema_pwmModule_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/sistema_pwmModule_ooc.xdc]
+read_vhdl -library xil_defaultlib C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/hdl/sistema_pwmModule_wrapper.vhd
+add_files C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/sistema_pwmModule.bd
+set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_processing_system7_0_0/sistema_pwmModule_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_rst_ps7_0_100M_0/sistema_pwmModule_rst_ps7_0_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_rst_ps7_0_100M_0/sistema_pwmModule_rst_ps7_0_100M_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_rst_ps7_0_100M_0/sistema_pwmModule_rst_ps7_0_100M_0_ooc.xdc]
+set_property used_in_synthesis false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/sistema_pwmModule_ila_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_auto_pc_0/sistema_pwmModule_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/sistema_pwmModule_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

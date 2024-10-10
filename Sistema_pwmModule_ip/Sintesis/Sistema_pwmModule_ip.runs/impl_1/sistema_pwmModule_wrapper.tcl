@@ -69,16 +69,16 @@ set rc [catch {
   set_property board_part digilentinc.com:arty-z7-10:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.cache/wt [current_project]
-  set_property parent.project_path C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.xpr [current_project]
+  set_property webtalk.parent_dir C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.cache/wt [current_project]
+  set_property parent.project_path C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.xpr [current_project]
   set_property ip_repo_paths C:/Disco1/RepositoriosGitHub/ProyectoMyS/Repositorio_IP [current_project]
-  set_property ip_output_repo C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.cache/ip [current_project]
+  set_property ip_output_repo C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
-  add_files -quiet C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.runs/synth_1/sistema_pwmModule_wrapper.dcp
+  add_files -quiet C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.runs/synth_1/sistema_pwmModule_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/sistema_pwmModule.bd
+  add_files C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/sistema_pwmModule.bd
   set_param project.isImplRun false
   set_param project.isImplRun true
   link_design -top sistema_pwmModule_wrapper -part xc7z010clg400-1

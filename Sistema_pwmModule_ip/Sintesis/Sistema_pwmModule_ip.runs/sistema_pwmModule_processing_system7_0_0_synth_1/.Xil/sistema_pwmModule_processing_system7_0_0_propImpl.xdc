@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_processing_system7_0_0/sistema_pwmModule_processing_system7_0_0.xdc rfile:../../../Sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_processing_system7_0_0/sistema_pwmModule_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:inst} [current_design]
+set_property SRC_FILE_INFO {cfile:c:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_processing_system7_0_0/sistema_pwmModule_processing_system7_0_0.xdc rfile:../../../sistema_pwmModule_ip.srcs/sources_1/bd/sistema_pwmModule/ip/sistema_pwmModule_processing_system7_0_0/sistema_pwmModule_processing_system7_0_0.xdc id:1 order:EARLY scoped_inst:inst} [current_design]
 set_property src_info {type:SCOPED_XDC file:1 line:21 export:INPUT save:INPUT read:READ} [current_design]
 set_input_jitter clk_fpga_0 0.3
 set_property src_info {type:SCOPED_XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]

@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date             : Tue Oct  8 15:53:32 2024
+| Date             : Thu Oct 10 09:17:43 2024
 | Host             : DESKTOP-201E7S1 running 64-bit major release  (build 9200)
 | Command          : report_power -file sistema_pwmModule_wrapper_power_routed.rpt -pb sistema_pwmModule_wrapper_power_summary_routed.pb -rpx sistema_pwmModule_wrapper_power_routed.rpx
 | Design           : sistema_pwmModule_wrapper
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.387        |
+| Total On-Chip Power (W)  | 1.386        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 1.271        |
@@ -52,20 +52,20 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.011 |        4 |       --- |             --- |
-| Slice Logic              |     0.002 |     5162 |       --- |             --- |
-|   LUT as Logic           |     0.002 |     1535 |     17600 |            8.72 |
-|   Register               |    <0.001 |     2720 |     35200 |            7.73 |
+| Clocks                   |     0.010 |        4 |       --- |             --- |
+| Slice Logic              |     0.002 |     4579 |       --- |             --- |
+|   LUT as Logic           |     0.002 |     1323 |     17600 |            7.52 |
+|   Register               |    <0.001 |     2396 |     35200 |            6.81 |
 |   CARRY4                 |    <0.001 |       59 |      4400 |            1.34 |
 |   LUT as Distributed RAM |    <0.001 |       24 |      6000 |            0.40 |
+|   LUT as Shift Register  |    <0.001 |      121 |      6000 |            2.02 |
 |   F7/F8 Muxes            |    <0.001 |        5 |     17600 |            0.03 |
-|   LUT as Shift Register  |    <0.001 |      123 |      6000 |            2.05 |
-|   Others                 |     0.000 |      392 |       --- |             --- |
-| Signals                  |     0.003 |     3868 |       --- |             --- |
+|   Others                 |     0.000 |      379 |       --- |             --- |
+| Signals                  |     0.003 |     3450 |       --- |             --- |
 | Block RAM                |    <0.001 |      0.5 |        60 |            0.83 |
 | PS7                      |     1.256 |        1 |       --- |             --- |
 | Static Power             |     0.115 |          |           |                 |
-| Total                    |     1.387 |          |           |                 |
+| Total                    |     1.386 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -75,7 +75,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.022 |       0.015 |      0.006 |
+| Vccint    |       1.000 |     0.021 |       0.015 |      0.006 |
 | Vccaux    |       1.800 |     0.008 |       0.000 |      0.008 |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -234,7 +234,7 @@ Table of Contents
 |           U_SYNC                                                                   |    <0.001 |
 |         SWITCH_N_EXT_BSCAN.bscan_inst                                              |    <0.001 |
 |         SWITCH_N_EXT_BSCAN.bscan_switch                                            |    <0.001 |
-|   sistema_pwmModule_i                                                              |     1.269 |
+|   sistema_pwmModule_i                                                              |     1.268 |
 |     ila_0                                                                          |     0.006 |
 |       U0                                                                           |     0.006 |
 |         ila_core_inst                                                              |     0.006 |
@@ -249,7 +249,7 @@ Table of Contents
 |             U_CDONE                                                                |    <0.001 |
 |             U_NS0                                                                  |    <0.001 |
 |             U_NS1                                                                  |    <0.001 |
-|             u_cap_addrgen                                                          |    <0.001 |
+|             u_cap_addrgen                                                          |     0.001 |
 |               U_CMPRESET                                                           |    <0.001 |
 |               u_cap_sample_counter                                                 |    <0.001 |
 |                 U_SCE                                                              |    <0.001 |
@@ -371,13 +371,9 @@ Table of Contents
 |                       u_srlC                                                       |    <0.001 |
 |                       u_srlD                                                       |    <0.001 |
 |           xsdb_memory_read_inst                                                    |    <0.001 |
-|     led1_ip_0                                                                      |    <0.001 |
-|       inst                                                                         |    <0.001 |
-|         led_ip_v1_0_S_AXI_inst                                                     |    <0.001 |
-|           U1                                                                       |    <0.001 |
 |     processing_system7_0                                                           |     1.256 |
 |       inst                                                                         |     1.256 |
-|     ps7_0_axi_periph                                                               |     0.005 |
+|     ps7_0_axi_periph                                                               |     0.004 |
 |       s00_couplers                                                                 |     0.004 |
 |         auto_pc                                                                    |     0.004 |
 |           inst                                                                     |     0.004 |
@@ -403,17 +399,9 @@ Table of Contents
 |               WR.b_channel_0                                                       |    <0.001 |
 |                 bid_fifo_0                                                         |    <0.001 |
 |                 bresp_fifo_0                                                       |    <0.001 |
-|       xbar                                                                         |    <0.001 |
-|         inst                                                                       |    <0.001 |
-|           gen_sasd.crossbar_sasd_0                                                 |    <0.001 |
-|             addr_arbiter_inst                                                      |    <0.001 |
-|             gen_decerr.decerr_slave_inst                                           |    <0.001 |
-|             reg_slice_r                                                            |    <0.001 |
-|             splitter_ar                                                            |    <0.001 |
-|             splitter_aw                                                            |    <0.001 |
-|     pwmModule_ip_0                                                                 |    <0.001 |
-|       U0                                                                           |    <0.001 |
-|         pwmModule_ip_v1_0_S_AXI_inst                                               |    <0.001 |
+|     pwm_ip_0                                                                       |     0.001 |
+|       U0                                                                           |     0.001 |
+|         pwm_ip_v1_0_S00_AXI_inst                                                   |     0.001 |
 |           pwmModule_inst                                                           |    <0.001 |
 |             contModN2_inst                                                         |    <0.001 |
 |               reg_inst                                                             |    <0.001 |

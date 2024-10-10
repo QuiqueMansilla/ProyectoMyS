@@ -125,11 +125,6 @@
 /******************************************************************/
 
 
-/* Definitions for peripheral LED1_IP_0 */
-#define XPAR_LED1_IP_0_S_AXI_BASEADDR 0x43C10000
-#define XPAR_LED1_IP_0_S_AXI_HIGHADDR 0x43C1FFFF
-
-
 /* Definitions for peripheral PS7_AFI_0 */
 #define XPAR_PS7_AFI_0_S_AXI_BASEADDR 0xF8008000
 #define XPAR_PS7_AFI_0_S_AXI_HIGHADDR 0xF8008FFF
@@ -243,13 +238,13 @@
 
 /******************************************************************/
 
-/* Definitions for driver PWMMODULE_IP */
-#define XPAR_PWMMODULE_IP_NUM_INSTANCES 1
+/* Definitions for driver PWM_IP */
+#define XPAR_PWM_IP_NUM_INSTANCES 1
 
-/* Definitions for peripheral PWMMODULE_IP_0 */
-#define XPAR_PWMMODULE_IP_0_DEVICE_ID 0
-#define XPAR_PWMMODULE_IP_0_S_AXI_BASEADDR 0x43C00000
-#define XPAR_PWMMODULE_IP_0_S_AXI_HIGHADDR 0x43C0FFFF
+/* Definitions for peripheral PWM_IP_0 */
+#define XPAR_PWM_IP_0_DEVICE_ID 0
+#define XPAR_PWM_IP_0_S00_AXI_BASEADDR 0x43C00000
+#define XPAR_PWM_IP_0_S00_AXI_HIGHADDR 0x43C0FFFF
 
 
 /******************************************************************/

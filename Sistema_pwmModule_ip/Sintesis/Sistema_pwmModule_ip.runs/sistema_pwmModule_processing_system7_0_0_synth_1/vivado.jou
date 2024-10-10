@@ -2,11 +2,11 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Tue Oct  8 15:48:55 2024
-# Process ID: 14536
-# Current directory: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.runs/sistema_pwmModule_processing_system7_0_0_synth_1
+# Start of session at: Thu Oct 10 09:11:35 2024
+# Process ID: 2552
+# Current directory: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.runs/sistema_pwmModule_processing_system7_0_0_synth_1
 # Command line: vivado.exe -log sistema_pwmModule_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sistema_pwmModule_processing_system7_0_0.tcl
-# Log file: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.runs/sistema_pwmModule_processing_system7_0_0_synth_1/sistema_pwmModule_processing_system7_0_0.vds
-# Journal file: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.runs/sistema_pwmModule_processing_system7_0_0_synth_1\vivado.jou
+# Log file: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.runs/sistema_pwmModule_processing_system7_0_0_synth_1/sistema_pwmModule_processing_system7_0_0.vds
+# Journal file: C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.runs/sistema_pwmModule_processing_system7_0_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source sistema_pwmModule_processing_system7_0_0.tcl -notrace

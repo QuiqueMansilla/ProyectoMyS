@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 entity pwmModule_ip_v1_0_S_AXI is
 	generic (
 		-- Users to add parameters here
-
+    
 		-- User parameters ends
 		-- Do not modify the parameters beyond this line
 
@@ -16,7 +16,7 @@ entity pwmModule_ip_v1_0_S_AXI is
 	);
 	port (
 		-- Users to add ports here
-
+        salPwm : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -80,7 +80,7 @@ entity pwmModule_ip_v1_0_S_AXI is
 		-- Read ready. This signal indicates that the master can
     		-- accept the read data and response information.
 		S_AXI_RREADY	: in std_logic
-		--pwm_out       : out std_logic
+		
 	);
 end pwmModule_ip_v1_0_S_AXI;
 
@@ -93,7 +93,7 @@ architecture arch_imp of pwmModule_ip_v1_0_S_AXI is
 	port(
 		clk_i   : in  std_logic;           
         rst_i   : in  std_logic;           
-        mod_i   : in  std_logic_vector(N-1 downto 0);    -- Período del PWM 
+        mod_i   : in  std_logic_vector(N-1 downto 0);    -- PerÃ­odo del PWM 
 		ena_i   : in  std_logic;
         duty_i  : in  std_logic_vector(N-1 downto 0);    -- Ciclo de trabajo 
 		q_o		: out std_logic_vector(N-1 downto 0); -- Salida del contador contModN2
@@ -128,7 +128,7 @@ architecture arch_imp of pwmModule_ip_v1_0_S_AXI is
 	signal slv_reg1	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal slv_reg2	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal slv_reg3	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
-	signal salPwm	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
+	--signal salPwm	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 	signal slv_reg_rden	: std_logic;
 	signal slv_reg_wren	: std_logic;
 	signal reg_data_out	:std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
@@ -362,7 +362,7 @@ begin
 	-- and the slave is ready to accept the read address.
 	slv_reg_rden <= axi_arready and S_AXI_ARVALID and (not axi_rvalid) ;
 
-	process (slv_reg0, slv_reg1, slv_reg2, salPwm, axi_araddr, S_AXI_ARESETN, slv_reg_rden)
+	process (slv_reg0, slv_reg1, slv_reg2, slv_reg3, axi_araddr, S_AXI_ARESETN, slv_reg_rden)
 	variable loc_addr :std_logic_vector(OPT_MEM_ADDR_BITS downto 0);
 	begin
 	    -- Address decoding for reading registers
@@ -375,7 +375,7 @@ begin
 	      when b"10" =>
 	        reg_data_out <= slv_reg2;
 	      when b"11" =>
-	        reg_data_out <= salPwm;
+	        reg_data_out <= slv_reg3;
 	      when others =>
 	        reg_data_out  <= (others => '0');
 	    end case;
@@ -408,10 +408,9 @@ begin
             mod_i   => slv_reg0(3 downto 0),
             ena_i   => slv_reg2(0),
             duty_i  => slv_reg1(3 downto 0),
-            pwm_out => salPwm(0)
+            pwm_out => salPwm
         );
         
-    -- pwm_out <= salPwm(0);--AGREGADO
-	-- User logic ends
+    -- User logic ends
 
 end arch_imp;

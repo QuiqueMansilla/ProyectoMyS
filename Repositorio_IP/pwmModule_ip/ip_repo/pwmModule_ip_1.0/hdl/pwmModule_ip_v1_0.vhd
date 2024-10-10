@@ -16,7 +16,7 @@ entity pwmModule_ip_v1_0 is
 	);
 	port (
 		-- Users to add ports here
-
+        salPwm  : out std_logic;
 		-- User ports ends
 		-- Do not modify the ports beyond this line
 
@@ -43,7 +43,7 @@ entity pwmModule_ip_v1_0 is
 		s_axi_rresp	: out std_logic_vector(1 downto 0);
 		s_axi_rvalid	: out std_logic;
 		s_axi_rready	: in std_logic
-		--pwm_output      : out std_logic --AGREGADO
+		
 	);
 end pwmModule_ip_v1_0;
 
@@ -76,7 +76,8 @@ architecture arch_imp of pwmModule_ip_v1_0 is
 		S_AXI_RDATA	: out std_logic_vector(C_S_AXI_DATA_WIDTH-1 downto 0);
 		S_AXI_RRESP	: out std_logic_vector(1 downto 0);
 		S_AXI_RVALID	: out std_logic;
-		S_AXI_RREADY	: in std_logic
+		S_AXI_RREADY	: in std_logic;
+		salPwm          : out std_logic
 		);
 	end component pwmModule_ip_v1_0_S_AXI;
 
@@ -109,8 +110,8 @@ pwmModule_ip_v1_0_S_AXI_inst : pwmModule_ip_v1_0_S_AXI
 		S_AXI_RDATA	=> s_axi_rdata,
 		S_AXI_RRESP	=> s_axi_rresp,
 		S_AXI_RVALID	=> s_axi_rvalid,
-		S_AXI_RREADY	=> s_axi_rready
-		-- pwm_out => pwm_output --AGREGADO
+		S_AXI_RREADY	=> s_axi_rready,
+		salPwm => salPwm --AGREGADO
 	);
 	
     -- Add user logic here

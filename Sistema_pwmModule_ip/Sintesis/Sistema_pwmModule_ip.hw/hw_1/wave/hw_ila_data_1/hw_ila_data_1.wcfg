@@ -3,25 +3,27 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/Sistema_pwmModule_ip.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+      <db_ref path="C:/Disco1/RepositoriosGitHub/ProyectoMyS/Sistema_pwmModule_ip/Sintesis/sistema_pwmModule_ip.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
          <top_modules>
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="10691fs"></ZoomEndTime>
+      <ZoomEndTime time="5385001fs"></ZoomEndTime>
       <Cursor1Time time="0fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="101"></NameColumnWidth>
+      <NameColumnWidth column_width="93"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="1" />
-   <wvobject fp_name="sistema_pwmModule_i/led1_ip_0_LED" type="logic">
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="sistema_pwmModule_i/pwm_ip_0_salPwm" type="logic">
       <obj_property name="DisplayName">FullPathName</obj_property>
-      <obj_property name="ElementShortName">sistema_pwmModule_i/led1_ip_0_LED</obj_property>
-      <obj_property name="ObjectShortName">led1_ip_0_LED</obj_property>
+      <obj_property name="ElementShortName">sistema_pwmModule_i/pwm_ip_0_salPwm</obj_property>
+      <obj_property name="ObjectShortName">pwm_ip_0_salPwm</obj_property>
       <obj_property name="Radix">HEXRADIX</obj_property>
       <obj_property name="LABELRADIX">true</obj_property>
       <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>

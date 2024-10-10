@@ -20,7 +20,7 @@
     </Object>
   </ObjectList>
   <ObjectList object_type="hw_probe" gui_info="">
-    <Object name="sistema_pwmModule_i/led1_ip_0_LED" gui_info="Trigger Setup=0"/>
+    <Object name="sistema_pwmModule_i/pwm_ip_0_salPwm" gui_info="Trigger Setup=0"/>
   </ObjectList>
   <probeset name="hw project" active="false">
     <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
@@ -41,7 +41,7 @@
         <Option Id="WAVEFORM_STYLE" value="Digital"/>
       </probeOptions>
       <nets>
-        <net name="sistema_pwmModule_i/led1_ip_0_LED"/>
+        <net name="sistema_pwmModule_i/pwm_ip_0_salPwm"/>
       </nets>
     </probe>
   </probeset>

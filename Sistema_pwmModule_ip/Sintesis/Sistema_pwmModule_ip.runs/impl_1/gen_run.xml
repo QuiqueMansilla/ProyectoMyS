@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1728413333">
+<GenRun Id="impl_1" LaunchPart="xc7z010clg400-1" LaunchTime="1728562292">
   <File Type="PWROPT-DCP" Name="sistema_pwmModule_wrapper_pwropt.dcp"/>
   <File Type="ROUTE-PWR" Name="sistema_pwmModule_wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="sistema_pwmModule_wrapper.tcl"/>
@@ -104,11 +104,9 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_rst_ps7_0_100M_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_auto_pc_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_led1_ip_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_pwmModule_ip_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_ila_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_pwm_ip_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="sistema_pwmModule_rst_ps7_0_100M_0"/>
 </GenRun>

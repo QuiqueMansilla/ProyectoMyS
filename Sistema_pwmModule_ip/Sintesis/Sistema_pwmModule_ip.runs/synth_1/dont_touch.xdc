@@ -4,8 +4,8 @@
 # Block Designs: bd/sistema_pwmModule/sistema_pwmModule.bd
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule || ORIG_REF_NAME==sistema_pwmModule} -quiet] -quiet
 
-# IP: bd/sistema_pwmModule/ip/sistema_pwmModule_pwmModule_ip_0_0/sistema_pwmModule_pwmModule_ip_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule_pwmModule_ip_0_0 || ORIG_REF_NAME==sistema_pwmModule_pwmModule_ip_0_0} -quiet] -quiet
+# IP: bd/sistema_pwmModule/ip/sistema_pwmModule_pwm_ip_0_0/sistema_pwmModule_pwm_ip_0_0.xci
+set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule_pwm_ip_0_0 || ORIG_REF_NAME==sistema_pwmModule_pwm_ip_0_0} -quiet] -quiet
 
 # IP: bd/sistema_pwmModule/ip/sistema_pwmModule_processing_system7_0_0/sistema_pwmModule_processing_system7_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule_processing_system7_0_0 || ORIG_REF_NAME==sistema_pwmModule_processing_system7_0_0} -quiet] -quiet
@@ -16,14 +16,8 @@ set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModu
 # IP: bd/sistema_pwmModule/ip/sistema_pwmModule_rst_ps7_0_100M_0/sistema_pwmModule_rst_ps7_0_100M_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule_rst_ps7_0_100M_0 || ORIG_REF_NAME==sistema_pwmModule_rst_ps7_0_100M_0} -quiet] -quiet
 
-# IP: bd/sistema_pwmModule/ip/sistema_pwmModule_led1_ip_0_0/sistema_pwmModule_led1_ip_0_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule_led1_ip_0_0 || ORIG_REF_NAME==sistema_pwmModule_led1_ip_0_0} -quiet] -quiet
-
 # IP: bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/sistema_pwmModule_ila_0_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule_ila_0_0 || ORIG_REF_NAME==sistema_pwmModule_ila_0_0} -quiet] -quiet
-
-# IP: bd/sistema_pwmModule/ip/sistema_pwmModule_xbar_0/sistema_pwmModule_xbar_0.xci
-set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule_xbar_0 || ORIG_REF_NAME==sistema_pwmModule_xbar_0} -quiet] -quiet
 
 # IP: bd/sistema_pwmModule/ip/sistema_pwmModule_auto_pc_0/sistema_pwmModule_auto_pc_0.xci
 set_property DONT_TOUCH TRUE [get_cells -hier -filter {REF_NAME==sistema_pwmModule_auto_pc_0 || ORIG_REF_NAME==sistema_pwmModule_auto_pc_0} -quiet] -quiet
