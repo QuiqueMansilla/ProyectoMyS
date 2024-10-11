@@ -26,3 +26,7 @@ En vivado se abrio el target y se vio la salida pwm hacia el ILA
 No se observa la salida en el ILA, por falta de tiempo, queda pendiente resolver ese asunto.
 El IP Core pwm_ip fue modificado y se corrigió el problema de que faltaba su salida para la señal pwm.
 Deberia funcionar, ya que todo se rehizo desde cero varias veces, y se ajusto lo que habia que ajustar y se corriegio lo que habia que corregir.
+
+Resumen del proyecto en archivo: Resumen del proyecto Sistema pwmModule ip.pdf
+
+Al final de este archivo se encuentra link al video de demostracion del proyecto.
