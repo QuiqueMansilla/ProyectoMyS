@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../../sistema_pwmModule.srcs/sources_1/bd/sistema_pwmModule/ipshared/ec67/hdl" --include "../../../../sistema_pwmModule.srcs/sources_1/bd/sistema_pwmModule/ipshared/02c8/hdl/verilog" --include "../../../../sistema_pwmModule.srcs/sources_1/bd/sistema_pwmModule/ipshared/b193/hdl" --include "../../../../sistema_pwmModule.srcs/sources_1/bd/sistema_pwmModule/ipshared/6180/hdl/verilog" --include "../../../../sistema_pwmModule.srcs/sources_1/bd/sistema_pwmModule/ipshared/a08d/hdl/verilog" --include "../../../../sistema_pwmModule.srcs/sources_1/bd/sistema_pwmModule/ipshared/2875/hdl/verilog" --include "../../../../sistema_pwmModule.srcs/sources_1/bd/sistema_pwmModule/ipshared/2c14/hdl/verilog" \
+"../../../bd/sistema_pwmModule/ip/sistema_pwmModule_processing_system7_0_0/sim/sistema_pwmModule_processing_system7_0_0.v" \
+"../../../bd/sistema_pwmModule/ip/sistema_pwmModule_auto_pc_0/sim/sistema_pwmModule_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

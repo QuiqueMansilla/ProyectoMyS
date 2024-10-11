@@ -1,13 +1,13 @@
 #include "xparameters.h"
 #include "xil_io.h"
-#include "pwmModule_ip.h"
+#include "pwm_ip.h"
  
 
 //====================================================
 
 int main (void) {
 
-	int pwm_out;
+	//int pwm_out;
 	int modulo = 15;
 	int duty = 7;
 	int enable = 1;
@@ -15,12 +15,12 @@ int main (void) {
 
     xil_printf("-- Inicio del programa para validar el uso de IP cores propios --\r\n");
  
-    PWMMODULE_IP_mWriteReg(XPAR_PWMMODULE_IP_0_S_AXI_BASEADDR, PWMMODULE_IP_S_AXI_SLV_REG0_OFFSET, modulo);
-    PWMMODULE_IP_mWriteReg(XPAR_PWMMODULE_IP_0_S_AXI_BASEADDR, PWMMODULE_IP_S_AXI_SLV_REG1_OFFSET, duty);
-    PWMMODULE_IP_mWriteReg(XPAR_PWMMODULE_IP_0_S_AXI_BASEADDR, PWMMODULE_IP_S_AXI_SLV_REG2_OFFSET, enable);
-    pwm_out = PWMMODULE_IP_mReadReg(XPAR_PWMMODULE_IP_0_S_AXI_BASEADDR, PWMMODULE_IP_S_AXI_SLV_REG3_OFFSET);
+    PWM_IP_mWriteReg(XPAR_PWM_IP_0_S00_AXI_BASEADDR, PWM_IP_S00_AXI_SLV_REG0_OFFSET, modulo);
+    PWM_IP_mWriteReg(XPAR_PWM_IP_0_S00_AXI_BASEADDR, PWM_IP_S00_AXI_SLV_REG1_OFFSET, duty);
+    PWM_IP_mWriteReg(XPAR_PWM_IP_0_S00_AXI_BASEADDR, PWM_IP_S00_AXI_SLV_REG2_OFFSET, enable);
+    //pwm_out = PWMMODULE_IP_mReadReg(XPAR_PWM_IP_0_S00_AXI_BASEADDR, PWMMODULE_IP_S_AXI_SLV_REG3_OFFSET);
 
-    xil_printf("modulo, duty, pwm_out: %d , %d , %d\r\n", modulo, duty, pwm_out);
+    xil_printf("modulo, duty, enable: %d , %d , %d\r\n", modulo, duty, enable);
 
  
 }

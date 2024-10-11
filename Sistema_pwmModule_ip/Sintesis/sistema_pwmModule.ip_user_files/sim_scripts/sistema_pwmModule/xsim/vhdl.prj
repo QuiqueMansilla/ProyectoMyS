@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../bd/sistema_pwmModule/ipshared/7fa2/hdl/pwm_ip_v1_0_S00_AXI.vhd" \
+"../../../bd/sistema_pwmModule/ipshared/7fa2/src/contModN2.vhd" \
+"../../../bd/sistema_pwmModule/ipshared/7fa2/src/genEna.vhd" \
+"../../../bd/sistema_pwmModule/ipshared/7fa2/src/pwmModule.vhd" \
+"../../../bd/sistema_pwmModule/ipshared/7fa2/src/reg.vhd" \
+"../../../bd/sistema_pwmModule/ipshared/7fa2/hdl/pwm_ip_v1_0.vhd" \
+"../../../bd/sistema_pwmModule/ip/sistema_pwmModule_pwm_ip_0_0/sim/sistema_pwmModule_pwm_ip_0_0.vhd" \
+"../../../bd/sistema_pwmModule/ip/sistema_pwmModule_rst_ps7_0_100M_0/sim/sistema_pwmModule_rst_ps7_0_100M_0.vhd" \
+"../../../bd/sistema_pwmModule/ip/sistema_pwmModule_ila_0_0/sim/sistema_pwmModule_ila_0_0.vhd" \
+"../../../bd/sistema_pwmModule/sim/sistema_pwmModule.vhd" \
+
+nosort

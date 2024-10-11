@@ -1,14 +1,14 @@
 Repositorio MyS
-Se creo el ip cord pwmModule_ip
 
-Se ajusto ip cord led_ip a 1 bit y se lo llamó led1_ip
+Proyecto Sistema_pwmModule
 
-Se creó poryecto Sistema_pwmModule_ip
+Se creo el ip cord pwm_ip
+
+Se creó poryecto Sistema_pwmModule
 
 se agregaron los siguientes modulos:
 	# Zynq
-	# pwmModule_ip
-	# led1_ip
+	# pwm_ip
 	# ila_0
 
 Se generó el bitstream --> ok
@@ -19,6 +19,10 @@ Se desarrollo el pwm.c a partir de otro modelo y se adaptó a los parámetros de
 
 Se programo la FPGA
 
-Se corrio sobre la placa el proyecto pwm sin errores pero no se puede apreciar le cambio de la señal de salida pwm.
+Se corrio sobre la placa el proyecto pwm sin errores.
 
 En vivado se abrio el target y se vio la salida pwm hacia el ILA
+
+No se observa la salida en el ILA, por falta de tiempo, queda pendiente resolver ese asunto.
+El IP Core pwm_ip fue modificado y se corrigió el problema de que faltaba su salida para la señal pwm.
+Deberia funcionar, ya que todo se rehizo desde cero varias veces, y se ajusto lo que habia que ajustar y se corriegio lo que habia que corregir.
